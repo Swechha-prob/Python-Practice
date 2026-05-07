@@ -1,5 +1,5 @@
-m = int(input("Enter the number of rows:\t"))          
-n = int(input("Enter the number of columns:\t"))       
+m = int(input("Enter the number of rows:\t"))      #put minimum 7    
+n = int(input("Enter the number of columns:\t"))   #put minimum 6  
 if (m%2 == 0):                                      
     m += 1
 for i in range(1 , m+1):
